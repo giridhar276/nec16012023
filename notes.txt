@@ -1,0 +1,95 @@
+
+
+*** Everything in python is Object ***
+*** Every object contains methods ***
+
+number
+-------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval = 34.43
+
+
+string
+------
+string is defined in single or double or triple quotes.
+
+
+aname = 'python programming'
+bname = "java programming"
+cname = """ruby programming"""
+
+
+list ( array in c )
+-------
+list contains elements.
+Elements can be numbers or strings or any combination.
+list is defined in [].
+
+alist = [10,20,30,40]
+blist = ["java","oracle"]
+clist = [20,"java","oracle"]
+dlist = [10,20,[30,40,"java"]]
+elist = [[10,20],[30,40],[50,60]]
+
+
+
+tuple ( immutable  unchangeable  uneditable )
+--------
+tuple is immutable
+tuple contains elements.
+Elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+****  elements inside tuple cannot be modified directly *****
+
+atup = (10,30,40,4)
+btup = ([10,20],[30,40],[40,50])
+ctup = ((10,20),(30,40),(40,50))
+
+
+dictionary ( other names :   json   hash   associative array )
+-----------
+dictionary is all about keys and values.
+dictionary contains elements in the form of keys and values.
+In dictionary, keys are always unique and key is number or string which is used to uniquely identify
+               value can be number or string or list or tuple or dictionary or any other complex structure.
+
+syntax:    object = { key:value , key:value , key:value }
+example:    book  = {"chap1":10 ,"chap2":20 ,"chap3":30}
+            data  = {1:2,3:4,5:6,"language":"java"}
+          bookinfo= {"chap1":[10,"Ram","US"] ,"chap2":[20,"Rita","UK"] }
+
+
+
+
+
+set
+-------
+set is UNORDERED collection of UNIQUE values of SAME type.
+
+aset = {10,20,20,20,30,30}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+set
