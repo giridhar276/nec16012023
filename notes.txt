@@ -48,7 +48,7 @@ btup = ([10,20],[30,40],[40,50])
 ctup = ((10,20),(30,40),(40,50))
 
 
-dictionary ( other names :   json   hash   associative array )
+dictionary ( other names :   json   hash  hashmap  associative array )
 -----------
 dictionary is all about keys and values.
 dictionary contains elements in the form of keys and values.
@@ -73,6 +73,117 @@ aset = {10,20,20,20,30,30}
 
 
 
+operators
+--------------
+
+
+arithemtic operators
+-----------------------
++  - *  %  /
+
+
+relational operators
+--------------------
+<   <=   >    >=    ==   !=
+
+name = 'python'
+if len(name) == 6   name != "ruby":
+   ## do something
+
+logical operators
+---------------------
+
+and 
+or 
+not
+
+if len(name) == 6   and  name == "python":
+    # do something
+
+
+assignment operators
+----------------------
+val = 10
+val +=1   or val = val + 1
+
+
+special operators
+--------------------
+in
+as
++   : concatenation operator
+*   : repetition operator
+
+
+
+statements
+-------------
+
+conditional statements
+----------------------
+if
+if-else
+if-elif-elif-elif-elif..else
+
+
+
+
+
+control statements
+-----------------
+for
+while
+
+
+functions
+------------
+There are 2 types of functions
+
+-builtin functions
+-user defined functions
+
+
+builtin functions
+------------------
+print()
+len()
+range()
+input() : read input from the keyboard
+sum()
+max()
+min()
+
+
+str()
+list()
+tuple()
+float()
+oct()
+hex()
+set()
+
+
+
+
+library | package | module | routines
+---------------------------------------
+Every library contains set of methods of some specific task
+
+there are 2 types of libraries
+-------------------------------
+
+
+- builtin libraries
+---------------------
+All the builtin libraries which are generally( math operations , OS operations , string operations, working with date and time ) used are installed with the python setup.
+
+
+third party libraries
+-----------------------
+Depending on the requirement(cloud operations,db operations, test automation, server automations , Machine learning, image processing, web developer) developer has to install the third party library from
+
+- using pip tool ( comes with python)
+- downloading and installing manually from www.pypi.org 
 
 
 
@@ -92,4 +203,55 @@ aset = {10,20,20,20,30,30}
 
 
 
-set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
